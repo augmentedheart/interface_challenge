@@ -1,11 +1,11 @@
 <div align='center'>
-# AugmentedHeart Interface Challenge
-</div>
+<h1>AugmentedHeart Interface Challenge</h1>
 
 <h3> 
 <a href="https://augmentedheart.com">AugmentedHeart</a>
 </h3>
 
+</div>
 
 ## Introduction
 In this challenge you'll design an inspection tool for viewing a raw ECG signal. We currently work with a Django - React - Postgres setup, which we recommend you use for this challenge as well. (SQLite suffices) If you have a strong preference for another setup, you are free to use that as well, but please keep it simple. 
