@@ -8,7 +8,7 @@
 </div>
 
 ## Introduction
-In this challenge you'll design an inspection tool for viewing a raw ECG signal. We currently work with a Django - React - Postgres setup, which we recommend you use for this challenge as well (Although postgres is probably overkill for this problem, you may use SQLite or similar). If you have a strong preference for another setup, you are free to use that as well, but please don't overcomplicate things. 
+In this challenge you'll design an inspection tool for viewing a raw ECG signal. The goal is to create a user-friendly tool to accept or reject annotations made by the classification model. You are free to use any stack and other tools you prefer, but please don't overcomplicate things. 
 
 ## The challenge
 For this challenge we ask you to develop an inspection tool containing a plot window for the ECG signal and a list with all annotations. Annotations are defined as binary (arrhyhtmia present or not). In the annotations array there will be intervals in the format (start_index, end_index) as a tuple. All samples within the intervals are assumed 1, all other samples are assumed 0. The goal of the inspection tool is an easy interface for an analist to iterate through all the intervals and either accept or reject the annotation. This should then be saved in a database for later assessment. The analist should be able to move back and forth through the annotations to correct previous decisions. This should in turn also be updated in the database. 
