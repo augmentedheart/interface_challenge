@@ -28,3 +28,6 @@ In this repo you can find the signal.npy (3, samples) and annotations.npy (, sam
 
 ## Submission
 Fork this repository before you start working on it. When you're satisfied send a zip file of the folder to frederik@augmentedheart.com
+
+
+
